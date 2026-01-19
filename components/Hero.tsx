@@ -59,7 +59,7 @@ const Hero: React.FC = () => {
           <div className="flex-1 relative flex justify-center lg:justify-end">
             <div className="w-full max-w-[320px] lg:max-w-[380px] aspect-[3/4] rounded-[2.5rem] overflow-hidden shadow-2xl relative border-8 border-white/30">
               <img 
-                src="https://picsum.photos/800/1000?sepia=0.5" 
+                src="https://raw.githubusercontent.com/YUJUNG-test/portfolio/b805f89e769c5339e5ea52101b7106786da11aef/%EC%B7%A8%EC%97%85%EC%82%AC%EC%A7%84.jpg" 
                 alt="Lee Yu-jeong Portrait" 
                 className="w-full h-full object-cover"
               />
