@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Instagram, Play, Mail, CheckCircle2 } from 'lucide-react';
+import { Instagram, Play, Mail, CheckCircle2, Youtube } from 'lucide-react';
 
 const About: React.FC = () => {
   const keywords = ['#열정', '#책임감', '#트렌드세터', '#콘텐츠전략', '#인사이트기획'];
@@ -31,17 +31,21 @@ const About: React.FC = () => {
         </div>
 
         <div className="flex items-center space-x-4">
-          <a href="https://www.instagram.com/u_jung_gem" target="_blank" rel="noopener noreferrer" className="p-3 bg-[#EFE9DB] rounded-full hover:bg-[#D7C9B1] transition-colors text-[#4A3E31]">
+          <a href="https://www.instagram.com/u_jung_gem" target="_blank" rel="noopener noreferrer" className="p-3 bg-[#EFE9DB] rounded-full hover:bg-[#D7C9B1] transition-colors text-[#4A3E31]" title="Instagram">
             <Instagram size={20} />
           </a>
-          <a href="https://www.tiktok.com/@whyranosaurus" target="_blank" rel="noopener noreferrer" className="p-3 bg-[#EFE9DB] rounded-full hover:bg-[#D7C9B1] transition-colors text-[#4A3E31]">
+          <a href="https://www.tiktok.com/@whyranosaurus" target="_blank" rel="noopener noreferrer" className="p-3 bg-[#EFE9DB] rounded-full hover:bg-[#D7C9B1] transition-colors text-[#4A3E31]" title="TikTok">
             <Play size={20} />
+          </a>
+          <a href="https://youtube.com/@happyyouth?si=zBgnhG_UDMEd6ufS" target="_blank" rel="noopener noreferrer" className="p-3 bg-[#EFE9DB] rounded-full hover:bg-[#D7C9B1] transition-colors text-[#4A3E31]" title="YouTube">
+            <Youtube size={20} />
           </a>
           <a 
             href="https://mail.naver.com/v2/folders/0/write?to=yj990107@naver.com" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-3 bg-[#EFE9DB] rounded-full hover:bg-[#D7C9B1] transition-colors text-[#4A3E31]"
+            title="Email"
           >
             <Mail size={20} />
           </a>

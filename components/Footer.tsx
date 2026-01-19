@@ -1,8 +1,10 @@
 
 import React from 'react';
-import { Instagram, Play, Mail, ArrowUpRight } from 'lucide-react';
+import { Instagram, Play, Mail, ArrowUpRight, Youtube } from 'lucide-react';
 
 const Footer: React.FC = () => {
+  const youtubeUrl = "https://youtube.com/@happyyouth?si=zBgnhG_UDMEd6ufS";
+
   return (
     <footer id="contact" className="bg-[#F4EBE1] border-t border-[#D7C9B1]/30 pt-24 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -28,15 +30,18 @@ const Footer: React.FC = () => {
           <div className="flex items-center gap-8 text-[#6F645E]">
             <a href="https://www.instagram.com/u_jung_gem" target="_blank" rel="noopener noreferrer" className="text-sm font-bold hover:text-[#3C3530] transition-colors">Instagram</a>
             <a href="https://www.tiktok.com/@whyranosaurus" target="_blank" rel="noopener noreferrer" className="text-sm font-bold hover:text-[#3C3530] transition-colors">TikTok</a>
-            <a href="#" className="text-sm font-bold hover:text-[#3C3530] transition-colors">YouTube</a>
+            <a href={youtubeUrl} target="_blank" rel="noopener noreferrer" className="text-sm font-bold hover:text-[#3C3530] transition-colors">YouTube</a>
           </div>
 
           <div className="flex items-center gap-4">
-            <a href="https://www.instagram.com/u_jung_gem" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/60 rounded-full text-[#4A3E31] shadow-sm">
+            <a href="https://www.instagram.com/u_jung_gem" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/60 rounded-full text-[#4A3E31] shadow-sm hover:shadow-md transition-shadow">
               <Instagram size={18} />
             </a>
-            <a href="https://www.tiktok.com/@whyranosaurus" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/60 rounded-full text-[#4A3E31] shadow-sm">
+            <a href="https://www.tiktok.com/@whyranosaurus" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/60 rounded-full text-[#4A3E31] shadow-sm hover:shadow-md transition-shadow">
               <Play size={18} />
+            </a>
+            <a href={youtubeUrl} target="_blank" rel="noopener noreferrer" className="p-2 bg-white/60 rounded-full text-[#4A3E31] shadow-sm hover:shadow-md transition-shadow">
+              <Youtube size={18} />
             </a>
           </div>
         </div>

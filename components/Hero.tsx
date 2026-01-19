@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
           </div>
           
           <div className="flex-1 relative flex justify-center lg:justify-end">
-            <div className="w-full max-w-[320px] lg:max-w-[380px] aspect-[3/4] rounded-[2.5rem] overflow-hidden shadow-2xl relative border-8 border-white/30">
+            <div className="w-full max-w-[240px] lg:max-w-[300px] aspect-[3/4] rounded-[2.5rem] overflow-hidden shadow-2xl relative border-8 border-white/30">
               <img 
                 src="https://raw.githubusercontent.com/YUJUNG-test/portfolio/b805f89e769c5339e5ea52101b7106786da11aef/%EC%B7%A8%EC%97%85%EC%82%AC%EC%A7%84.jpg" 
                 alt="Lee Yu-jeong Portrait" 
@@ -66,7 +66,7 @@ const Hero: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-[#4A3E31]/20 to-transparent pointer-events-none" />
             </div>
             
-            <div className="absolute -bottom-4 -left-4 lg:-left-12 bg-white/90 p-5 rounded-2xl shadow-xl glass-card hidden sm:block border border-[#D7C9B1]/30">
+            <div className="absolute -bottom-4 -left-4 lg:-left-8 bg-white/90 p-5 rounded-2xl shadow-xl glass-card hidden sm:block border border-[#D7C9B1]/30">
               <div className="flex items-center gap-4">
                 <div className="p-2.5 bg-[#4A3E31] text-[#FDFCF0] rounded-xl">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
